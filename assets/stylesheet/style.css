@@ -1,0 +1,89 @@
+html, body {
+	background: #eee;
+	font-family: helvetica;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+}
+html {
+	background: #ede;
+}
+body {		
+	background: #777;
+}
+.heading {
+	background: #333;
+	color: #fff;
+	margin: 0;
+	padding: 0.4em 0.8em;
+}
+.para {
+	color: #EBEBB9;
+	padding: 0.4em 1.6em;
+}
+.moving-background {
+	background: url('../images/bubble.png');
+	opacity: 0.3;
+	position: fixed;
+	top: 190px;
+	width: 1200px;
+}
+.main-panel {
+	position: relative;
+	width: 100%;
+}
+.main-panel .para {
+	bottom: 0;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	left: 45%;
+	position: absolute;
+}
+.lower-section {
+	background: #777;
+	position: relative;
+}
+.form {
+	padding: 0 1.6em 1.6em;
+	text-align: right;
+}
+.form-body {
+	border: 1px solid #000;
+	padding-bottom: 1.6em;
+}
+.form p {
+	background: #010101;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0;
+	padding: 0.4em 0;
+	text-align: center;
+}
+.form input, 
+.form textarea {
+	border-radius: 0;
+	border: 1px solid #777;
+	display: block;
+	margin-bottom: 0.8em;
+	padding: 0.4em;
+	width: 100%;
+}
+.form textarea {
+	height: 200px;
+}
+.form-fields {
+	border: 1px solid #ededde;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 1.6em;
+	width: 70%;
+}
+.button {
+	background: #46ed21;
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.6em 1.2em;
+}
