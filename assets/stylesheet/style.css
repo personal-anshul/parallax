@@ -29,17 +29,19 @@ body {
 	top: 190px;
 	width: 1200px;
 }
-.main-panel {
+.basic-parallax-panel {
 	position: relative;
 	width: 100%;
 }
-.main-panel .para {
+.basic-parallax-panel .para {
 	bottom: 0;
 	color: red;
 	font-size: 20px;
 	font-weight: bold;
-	left: 45%;
+	left: 0;
 	position: absolute;
+	right: 0;
+	text-align: center;
 }
 .lower-section,
 .content-end {
@@ -93,11 +95,11 @@ body {
 	width: 70%;
 }
 .button {
-	background: #46ed21;
+	background: #81C3ab;
 	border: 0 none;
 	color: #fff;
 	cursor: pointer;
-	padding: 0.6em 1.2em;
+	padding: 0.8em 1.6em;
 }
 .dark-circle {
 	background: #81C3C3;
