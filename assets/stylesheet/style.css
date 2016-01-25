@@ -9,7 +9,7 @@ html, body {
 html {
 	background: #ede;
 }
-body {		
+body {
 	background: #777;
 }
 .heading {
@@ -41,12 +41,23 @@ body {
 	left: 45%;
 	position: absolute;
 }
-.lower-section {
+.lower-section,
+.content-end {
 	background: #777;
 	position: relative;
 }
+.content-lower-section {
+	background: #777;
+	position: relative;
+	z-index: 2;
+}
+.content-lower-section .para,
+.content-end .para {
+	margin: 0;
+	padding: 1.2em 1.6em;
+}
 .form {
-	padding: 0 1.6em 1.6em;
+	padding: 0 1.6em;
 	text-align: right;
 }
 .form-body {
@@ -78,6 +89,7 @@ body {
 	border-radius: 5px;
 	margin: 0 auto;
 	padding: 1.6em;
+	position: relative;
 	width: 70%;
 }
 .button {
@@ -86,4 +98,14 @@ body {
 	color: #fff;
 	cursor: pointer;
 	padding: 0.6em 1.2em;
+}
+.dark-circle {
+	background: #81C3C3;
+	box-shadow: 0 0 20px 3px #000;
+	border-radius: 100px;
+	height: 200px;
+	opacity: 0.1;
+	position: fixed;
+	right: 100px;
+	width: 200px;
 }
