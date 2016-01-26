@@ -30,6 +30,7 @@ body {
 	width: 1200px;
 }
 .basic-parallax-panel {
+	padding: 1.2em;
 	position: relative;
 	width: 100%;
 }
@@ -72,6 +73,7 @@ body {
 	font-weight: bold;
 	margin-top: 0;
 	padding: 0.4em 0;
+	position: relative;
 	text-align: center;
 }
 .form input, 
@@ -102,7 +104,7 @@ body {
 	padding: 0.8em 1.6em;
 }
 .dark-circle {
-	background: #81C3C3;
+	background: #2E4053;
 	box-shadow: 0 0 20px 3px #000;
 	border-radius: 100px;
 	height: 200px;
@@ -110,4 +112,14 @@ body {
 	position: fixed;
 	right: 100px;
 	width: 200px;
+}
+.light-circle {
+	background: #556B2F;
+	box-shadow: 0 0 20px 3px #fff;
+	border-radius: 200px;
+	height: 400px;
+	opacity: 0.2;
+	position: fixed;
+	left: 100px;
+	width: 400px;
 }
