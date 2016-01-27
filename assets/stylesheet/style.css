@@ -4,7 +4,7 @@ html, body {
 	font-size: 14px;
 	margin: 0 auto;
 	padding: 0;
-	width: 1200px;
+	width: 1000px;
 }
 html {
 	background: #ede;
@@ -18,6 +18,18 @@ body {
 	margin: 0;
 	padding: 0.4em 0.8em;
 }
+.heading h1 {
+	display: inline-block;
+  margin: 0;
+}
+.link-advance {
+  display: inline-block;
+	float: right;
+	margin: .4em;
+}
+.link-advance a {
+	color: #53ddaa;
+}
 .para {
 	color: #EBEBB9;
 	padding: 0.4em 1.6em;
@@ -27,7 +39,7 @@ body {
 	opacity: 0.3;
 	position: fixed;
 	top: 190px;
-	width: 1200px;
+	width: 1000px;
 }
 .basic-parallax-panel {
 	padding: 1.2em;
@@ -122,4 +134,49 @@ body {
 	position: fixed;
 	left: 100px;
 	width: 400px;
+}
+.slide {
+	background-size: cover !important;
+	display: table;
+	height: 680px;
+	width: 100%;
+}
+.slide h2 {
+	display: table-cell;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+#slide1 {
+	background: url('../images/slide1.jpg');
+	color: #5B2C6F;
+}
+#slide2 {
+	background: url('../images/slide2.jpg');
+	color: #FFF;
+}
+#slide3 {
+	background: url('../images/slide3.jpg');
+	color: #F1948A;
+}
+#slide4 {
+	background: url('../images/slide4.jpg');
+	color: #F1C40F;
+}
+.navigation {
+	background: #333;
+	list-style: none;
+	margin: 0;
+	padding: 0 0.4em;
+}
+.navigation li {
+	display: inline-block;
+	padding: 0.8em;
+}
+.navigation li a {
+	color: #ddd;
+	text-decoration: none;
+}
+.navigation li a:hover {
+	color: #fff;
 }
