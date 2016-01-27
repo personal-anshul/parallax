@@ -1,0 +1,13 @@
+{
+  "name": "jquery.stellar",
+  "version": "0.6.2",
+  "main": [
+    "./jquery.stellar.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.3",
+    "jquery.easing": ">=1.3.1",
+    "jquery.stellar": ">=0.6",
+    "waypoints": ">=4.0.0"
+  }
+}
