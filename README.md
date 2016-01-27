@@ -2,8 +2,6 @@
 
 ## Initial Setup
 * Clone repo.
-* npm install
-* bower istall
 
 ## Basic Parallax
 **Steps to follow -**
