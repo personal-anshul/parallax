@@ -1,18 +1,22 @@
 # PARALLAX
 
 ## Initial Setup
-* 1. Clone repo.
-* 2. npm install
-* 3. bower istall
+* Clone repo
+* npm install
+* bower istall
 
 ## Basic Parallax
-* **Steps to follow -**
+**Steps to follow -**
 * Swtich to feature branch - feature/first-example
 
 ## Multiple Parallax
-* **Steps to follow -**
+**Steps to follow -**
 *  Swtich to feature branch - feature/multiple-parallax
 
 ## Reverse Parallax
-* **Steps to follow -**
+**Steps to follow -**
 *  Swtich to feature branch - feature/reverse-parallax
+
+## Stellar - Basic Example
+**Steps to follow -**
+* Swtich to feature branch - stellar-feature/basic-example

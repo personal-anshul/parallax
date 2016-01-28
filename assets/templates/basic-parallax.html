@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Parallax using Stellar</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
+	<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="../../bower_components/jquery.stellar/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="../../bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="../scripts/script.js"></script>
+</head>
+<body>
+	<nav>
+		<ul class="navigation">
+			<li scroll-to="slide1" class="link-active"><a href="#">Slide 1</a></li>
+			<li scroll-to="slide2"><a href="#">Slide 2</a></li>
+			<li scroll-to="slide3"><a href="#">Slide 3</a></li>
+			<li scroll-to="slide4"><a href="#">Slide 4</a></li>
+		</ul>
+	</nav>
+	<div id="slide1" class="slide">
+		<h2>Here's slide 1.</h2>
+	</div>
+	<div id="slide2" class="slide" data-stellar-background-ratio="0.4">
+		<h2>Here's slide 2.</h2>
+	</div>
+	<div id="slide3" class="slide" data-stellar-background-ratio="0.6">
+		<h2>Here's slide 3.</h2>
+	</div>
+	<div id="slide4" class="slide" data-stellar-background-ratio="0.5">
+		<h2>Here's slide 4.</h2>
+	</div>
+</body>
+</html>
