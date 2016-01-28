@@ -164,12 +164,15 @@ body {
 	color: #F1C40F;
 }
 .navigation {
-	background: #333;
+	background: #555;
 	list-style: none;
 	margin: 0;
-	padding: 0 0.4em;
+	padding: 0;
+	position: fixed;
+	width: 1000px;
 }
 .navigation li {
+	cursor: pointer;
 	display: inline-block;
 	padding: 0.8em;
 }
@@ -179,4 +182,7 @@ body {
 }
 .navigation li a:hover {
 	color: #fff;
+}
+.link-active {
+	background: #011;
 }
