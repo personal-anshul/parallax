@@ -24,3 +24,7 @@
 ## Stellar - Example of Element level Parallax effect
 **Steps to follow -**
 * Swtich to feature branch - stellar-feature/element-parallax
+
+## Stellar - Example of Multiple Elements Parallax effect
+**Steps to follow -**
+* Swtich to feature branch - stellar-feature/multiple-parallax
