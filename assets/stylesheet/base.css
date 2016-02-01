@@ -1,0 +1,139 @@
+html, body {
+	font-family: helvetica;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+body {
+	background: url('../images/body_bg_1.jpg');
+}
+.heading {
+	background: #191919;	/*black*/
+	color: #fff;	/*white*/
+	margin: 0;
+	padding: 0.8em;
+}
+.heading h1 {
+	display: inline-block;
+  margin: 0;
+}
+.link-advance {
+  display: inline-block;
+	float: right;
+	margin: 0.4em;
+}
+.link-advance a {
+	color: #d9853b;	/*orange*/
+	text-decoration: none;
+}
+.link-advance a:hover {
+	color: #558c89;	/*blue*/
+	text-decoration: underline;
+}
+.para {
+	color: #ebebb9;	/*gray*/
+	padding: 0.4em 1.6em;
+}
+.moving-background {
+	background: url('../images/bubble.png');
+	opacity: 0.3;
+	position: fixed;
+	top: 190px;
+	width: 100%;
+}
+.basic-parallax-panel {
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+.basic-parallax-panel .para {
+	color: #d9853b;	/*orange*/
+	display: table-cell;
+	font-size: 75px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.lower-section {
+	position: relative;
+}
+.content-end {
+	background: url('../images/body_bg_2.jpg');
+	position: relative;
+}
+.content-lower-section {
+	background: url('../images/body_bg_2.jpg');
+	position: relative;
+	z-index: 2;
+}
+.content-lower-section .para,
+.content-end .para {
+	margin: 0;
+	padding: 1.2em 1.6em;
+}
+.form {
+	background: url('../images/body_bg_1.jpg');
+	text-align: right;
+}
+.form-body {
+	padding-bottom: 1.6em;
+}
+.form p {
+	background: #191919;	/*black*/
+	color: #fff;	/*white*/
+	font-weight: bold;
+	margin-top: 0;
+	padding: 0.8em;
+	position: relative;
+	text-align: left;
+}
+.form input, 
+.form textarea {
+	border-radius: 0;
+	border: 1px solid #777;	/*dark gray*/
+	display: block;
+	margin-bottom: 0.8em;
+	padding: 0.4em;
+	width: 100%;
+}
+.form textarea {
+	height: 200px;
+}
+.form-fields {
+	border: 1px solid #ebebb9;	/*gray*/
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 1.6em;
+	position: relative;
+	width: 70%;
+}
+.button {
+	background: #558c89;	/*blue*/
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.8em 1.6em;
+}
+.small-circle {
+	background: #d9853b;	/*orange*/
+	box-shadow: 0 0 20px 3px #fff;	/*white*/
+	border-radius: 100px;
+	height: 200px;
+	opacity: 0.1;
+	position: fixed;
+	right: 50px;
+	width: 200px;
+}
+.big-circle {
+	background: #558c89;	/*blue*/
+	box-shadow: 0 0 20px 3px #fff;	/*white*/
+	border-radius: 150px;
+	height: 300px;
+	opacity: 0.2;
+	position: fixed;
+	left: 50px;
+	width: 300px;
+}
+.about-us {
+	background: url('../images/body_bg_1.jpg');
+}
