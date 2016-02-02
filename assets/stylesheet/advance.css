@@ -40,7 +40,7 @@
 
 /* Slides */
 .slide {
-	color: #d9853b;	/*white*/
+	color: #fff;	/*white*/
 	display: table;
 	height: 680px;
 	position: relative;
@@ -112,11 +112,6 @@
 }
 .heading-easy h1 {
 	display: inline-block;
-}
-
-/*arrow*/
-.arrow-down {
-	background: url('../images/05.jpg');
 }
 
 /* Letters */
