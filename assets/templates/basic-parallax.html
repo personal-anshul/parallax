@@ -4,10 +4,6 @@
 	<title>Basic Parallax using Stellar</title>
 	<link rel="stylesheet" type="text/css" href="../stylesheet/base.css">
 	<link rel="stylesheet" type="text/css" href="../stylesheet/advance.css">
-	<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="../../bower_components/jquery.stellar/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="../../bower_components/jquery.easing/js/jquery.easing.min.js"></script>
-	<script type="text/javascript" src="../scripts/script.js"></script>
 </head>
 <body>
 	<nav>
@@ -82,8 +78,14 @@
 				</div>
 			</h1>
 		</div>
+		<div>
+			<li scroll-to="slide2" class="icon-down"></li>
+		</div>
 	</div>
 	<div id="slide2" class="slide" data-stellar-background-ratio="0.4">
+		<div>
+			<li scroll-to="slide3" class="icon-down"></li>
+		</div>
 	</div>
 	<div id="slide3" class="slide" data-stellar-background-ratio="0.6">
 		<div class="heading-easy">
@@ -109,8 +111,18 @@
 				</div>
 			</h1>
 		</div>
+		<div>
+			<li scroll-to="slide4" class="icon-down"></li>
+		</div>
 	</div>
 	<div id="slide4" class="slide" data-stellar-background-ratio="0.5">
+		<div>
+			<li scroll-to="slide1" class="icon-down icon-up"></li>
+		</div>
 	</div>
 </body>
 </html>
+<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../../bower_components/jquery.stellar/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="../../bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="../scripts/parallax-stellar.js"></script>
