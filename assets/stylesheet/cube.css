@@ -1,0 +1,158 @@
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+    transform: rotateX(-33.5deg) rotateY(45deg)
+  }
+  10%,
+  to {
+    -webkit-transform: rotateX(-33.5deg) rotateY(225deg);
+    transform: rotateX(-33.5deg) rotateY(225deg)
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+    transform: rotateX(-33.5deg) rotateY(45deg)
+  }
+  10%,
+  to {
+    -webkit-transform: rotateX(-33.5deg) rotateY(225deg);
+    transform: rotateX(-33.5deg) rotateY(225deg)
+  }
+}
+.cube-inner-first {
+  animation: spin 3s ease-in-out infinite 2s;
+  -webkit-transform-origin: 50px 50px;
+  transform-origin: 50px 50px;
+  -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+  transform: rotateX(-33.5deg) rotateY(45deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: spin 3s ease-in-out infinite 2s;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  padding: 0;
+  top: 50%;
+}
+.cube-inner-first,
+.cube-inner-first li {
+  position: absolute;
+}
+.cube-inner-first li {
+  height: 100px;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  width: 100px;
+}
+.cube-inner-first .second,
+.cube-inner-first .first,
+.cube-inner-first .forth,
+.cube-inner-first .third,
+.cube-inner-first .fifth {
+  background: radial-gradient(transparent 30%, rgba(17, 92, 52, .5) 100%);
+  border: 1px solid #87DC74;
+}
+.cube-inner-first li:after {
+  background-color: rgba(142, 233, 126, .5);
+  content: "";
+  height: 100px;
+  position: absolute;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  width: 100px;
+}
+.cube-inner-first .first {
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
+}
+.cube-inner-first .second {
+  -webkit-transform: rotateX(-180deg) translateZ(50px);
+  transform: rotateX(-180deg) translateZ(50px);
+}
+.cube-inner-first .third {
+  -webkit-transform: rotateY(90deg) translateZ(50px);
+  transform: rotateY(90deg) translateZ(50px);
+}
+.cube-inner-first .forth {
+  -webkit-transform: rotateY(-90deg) translateZ(50px);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.cube-inner-first .fifth {
+  -webkit-transform: rotateX(90deg) translateZ(50px);
+  transform: rotateX(90deg) translateZ(50px);
+}
+.cube-inner-first .fifth:after {
+  background-color: rgba(158, 238, 152, .5);
+}
+.cube-inner-first .last {
+  -webkit-transform: rotateX(-90deg) translateZ(50px);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+.cube-inner-second {
+  animation: spin 3s ease-in-out infinite 2s
+  -webkit-transform-origin: 25px 25px;
+  transform-origin: 25px 25px;
+  -webkit-transform: rotateX(-33.5deg) rotateY(45deg);
+  transform: rotateX(-33.5deg) rotateY(45deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: spin 3s ease-in-out infinite 2s;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  padding: 0;
+  top: 50%;
+}
+.cube-inner-second,
+.cube-inner-second li {
+  position: absolute;
+}
+.cube-inner-second li {
+  height: 50px;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  width: 50px;
+}
+.cube-inner-second .second,
+.cube-inner-second .first,
+.cube-inner-second .forth,
+.cube-inner-second .third,
+.cube-inner-second .fifth {
+  background: radial-gradient(transparent 30%, rgba(13, 54, 5, .2) 100%);
+  border: 1px solid rgba(28, 110, 9, 0.7);
+}
+.cube-inner-second li:after {
+  background-color: rgba(53, 176, 16, .5);
+  content: "";
+  height: 50px;
+  position: absolute;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  width: 50px;
+}
+.cube-inner-second .first {
+  -webkit-transform: translateZ(25px);
+  transform: translateZ(25px);
+}
+.cube-inner-second .second {
+  -webkit-transform: rotateX(-180deg) translateZ(25px);
+  transform: rotateX(-180deg) translateZ(25px);
+}
+.cube-inner-second .third {
+  -webkit-transform: rotateY(90deg) translateZ(25px);
+  transform: rotateY(90deg) translateZ(25px);
+}
+.cube-inner-second .forth {
+  -webkit-transform: rotateY(-90deg) translateZ(25px);
+  transform: rotateY(-90deg) translateZ(25px);
+}
+.cube-inner-second .fifth {
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+}
+.cube-inner-second .fifth:after {
+  background-color: rgba(42, 235, 21, .5);
+}
+.cube-inner-second .last {
+  -webkit-transform: rotateX(-90deg) translateZ(25px);
+  transform: rotateX(-90deg) translateZ(25px);
+}

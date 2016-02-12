@@ -1,7 +1,7 @@
-var parallaxBackgroundOffset = 40;
+var parallaxBackgroundOffset = 80;
 var basicParallaxOffset = document.getElementById('page-heading').clientHeight + document.getElementById('first-para').clientHeight;
-document.getElementsByClassName('basic-parallax-panel')[0].style.height = window.innerHeight - basicParallaxOffset - parallaxBackgroundOffset + 'px';
-document.getElementsByClassName('moving-background')[0].style.height = window.innerHeight - basicParallaxOffset + 'px';
+document.getElementsByClassName('basic-parallax-panel')[0].style.height = window.innerHeight - basicParallaxOffset + 'px';
+document.getElementsByClassName('moving-background')[0].style.height = window.innerHeight + 'px';
 document.getElementsByClassName('big-circle')[0].style.bottom = -document.getElementsByTagName('body')[0].clientHeight + "px";
 
 //Binding Scroll event to produce parallax
@@ -9,12 +9,13 @@ window.addEventListener("scroll", parallaxScroll, false);
 
 //Code for handling parallax effect
 function parallaxScroll() {
-	var opacityOfParallaxObject = 1 - (window.pageYOffset / window.innerHeight * 1.5);
+	var opacityOfParallaxObject = 1 - (window.pageYOffset / window.innerHeight);
 
 	//Code for Primary Parallax effect
-	document.getElementsByClassName('moving-background')[0].style.top = -(window.pageYOffset / 5 - basicParallaxOffset - parallaxBackgroundOffset ) + 'px';
+	document.getElementsByClassName('moving-background')[0].style.top = -(window.pageYOffset / 5 - parallaxBackgroundOffset ) + 'px';
+	document.getElementsByClassName('parallax-content')[0].style.top = -(window.pageYOffset / 2 - basicParallaxOffset / 1.1 - parallaxBackgroundOffset ) + 'px';
 	document.getElementsByClassName('parallax-content')[0].style.opacity = opacityOfParallaxObject;
-	
+
 	//Code for Secondary Parallax effect
 	var scrollPositionBreakpoint = document.getElementsByTagName('body')[0].clientHeight - window.innerHeight - document.getElementsByClassName('form')[0].clientHeight - document.getElementsByClassName('content-end')[0].clientHeight + parallaxBackgroundOffset;
 	if(window.pageYOffset > scrollPositionBreakpoint) {

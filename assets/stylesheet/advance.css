@@ -78,7 +78,7 @@
 
 /*Navigation*/
 .navigation {
-	background: #558c89;	/*blue*/
+	background: rgba(42, 176, 16, 0.7);	/*green*/
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -99,8 +99,8 @@
 	color: #fff;	/*white*/
 }
 .link-active {
-	background: #d9853b;	/*orange*/
-	border-bottom: 1px solid #558c89;	/*blue*/
+	background: rgba(217, 133, 59, 0.9);	/*orange*/
+	border-bottom: 1px solid rgba(42, 176, 16, 1);	/*green*/
 }
 
 /*Easy effect*/
@@ -449,17 +449,17 @@ left: 25px;
 	top: 106px;
 }
 .ball .square2 {
-	border-radius: 0 30px 0 0; 
+	border-radius: 0 30px 0 0;
 	left: 84px;
 	top: 106px;
 }
 .ball .square3 {
-	border-radius: 0 0 0 30px; 
+	border-radius: 0 0 0 30px;
 	left: 50px;
 	top: 140px;
 }
 .ball .square4 {
-	border-radius: 0 0 30px 0; 
+	border-radius: 0 0 30px 0;
 	left: 84px;
 	top: 140px;
 }

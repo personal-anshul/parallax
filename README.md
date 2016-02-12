@@ -17,6 +17,10 @@
 **Steps to follow -**
 *  Swtich to feature branch - feature/reverse-parallax
 
+## Parallax with CSS3 few effects
+**Steps to follow -**
+*  Swtich to feature branch - enhancement/effect-css3-rotate-skew
+
 ## Stellar - Basic Example
 **Steps to follow -**
 * Swtich to feature branch - stellar-feature/basic-example
