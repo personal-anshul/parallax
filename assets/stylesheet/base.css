@@ -7,6 +7,8 @@ html, body {
 }
 body {
 	background: url('../images/body_bg_1.jpg');
+}
+.body {
 	overflow-y: hidden;
 }
 .heading {
@@ -40,7 +42,12 @@ body {
 	background: url('../images/bubble.png');
 	opacity: 0.3;
 	position: fixed;
-	top: 190px;
+	top: 90px;
+	width: 100%;
+}
+.parallax-content {
+	position: fixed;
+	top: 220px;
 	width: 100%;
 }
 .basic-parallax-panel {
@@ -48,7 +55,7 @@ body {
 	text-align: center;
 	width: 100%;
 }
-.basic-parallax-panel .para {
+.parallax-content {
 	color: #d9853b;	/*orange*/
 	display: table-cell;
 	font-size: 75px;
@@ -56,39 +63,67 @@ body {
 	vertical-align: middle;
 }
 .lower-section {
+	padding-top: 3.2em;
 	position: relative;
 }
 .content-end {
 	background: url('../images/body_bg_2.jpg');
 	position: relative;
+	z-index: 2;
 }
 .content-lower-section {
-	background: url('../images/body_bg_2.jpg');
 	position: relative;
 	z-index: 2;
+}
+.content-lower-section:before {
+	background: rgba(217, 133, 59, 0.9);	/*orange*/
+	content: '';
+	height: 100%;
+	padding: 20px 0;
+	position: absolute;
+	transform: skewY(-3deg);
+	width: 100%;
 }
 .content-lower-section .para,
 .content-end .para {
 	margin: 0;
 	padding: 1.2em 1.6em;
+	position: relative;;
+}
+.content-lower-section .first-para {
+	padding-top: 3.8em;
 }
 .form {
 	background: url('../images/body_bg_1.jpg');
-	text-align: right;
+	position: relative;
+}
+.form-heading {
+	color: #fff;	/*white*/
+	font-weight: bold;
+	margin: 2.8em 0 4em;
+	padding: 1.4em 0.8em 0;
+	position: relative;
+	text-align: left;
+}
+.form-heading:before {
+	background: #191919;	/*black*/
+	content: '';
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: skewY(-3deg);
+	width: 100%;
+}
+.form-heading p {
+	margin-bottom: 0;
+	padding: 1.6em 0 0;
+	position: relative;
 }
 .form-body {
 	padding-bottom: 1.6em;
 }
-.form p {
-	background: #191919;	/*black*/
-	color: #fff;	/*white*/
-	font-weight: bold;
-	margin-top: 0;
-	padding: 0.8em;
-	position: relative;
-	text-align: left;
-}
-.form input, 
+.form input,
 .form textarea {
 	border-radius: 0;
 	border: 1px solid #777;	/*dark gray*/
@@ -116,7 +151,7 @@ body {
 	padding: 0.8em 1.6em;
 }
 .small-circle {
-	background: #d9853b;	/*orange*/
+	background: rgba(217, 133, 59, 0.6);;	/*orange*/
 	box-shadow: 0 0 20px 3px #fff;	/*white*/
 	border-radius: 100px;
 	height: 200px;
@@ -124,9 +159,10 @@ body {
 	position: fixed;
 	right: 50px;
 	width: 200px;
+	z-index: 1;
 }
 .big-circle {
-	background: #558c89;	/*blue*/
+	background: rgba(85, 140, 137, 0.6);	/*blue*/
 	box-shadow: 0 0 20px 3px #fff;	/*white*/
 	border-radius: 150px;
 	height: 300px;
@@ -134,6 +170,7 @@ body {
 	position: fixed;
 	left: 50px;
 	width: 300px;
+	z-index: 1;
 }
 .about-us {
 	background: url('../images/body_bg_1.jpg');
