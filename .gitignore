@@ -1,0 +1,28 @@
+# Create .gitignore via command "touch .gitignore"
+# and generate content by https://www.gitignore.io/
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+
+### Bower ###
+bower_components/
+.bower-cache
+.bower-registry
+.bower-tmp
+
+
+### tmp directory ###
+.tmp/
